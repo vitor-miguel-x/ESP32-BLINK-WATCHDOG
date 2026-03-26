@@ -22,7 +22,7 @@ O ESP32 realiza requisições seguras (HTTPS GET) a cada 15 segundos para uma UR
 | LED Vermelho | 1 |
 | Resistor (200Ω) | 2 |
 | Protoboard | 1 |
-| Jumpers | Vários |
+| Jumpers | 4 |
 
 ## Esquema de Ligação
 1. **LED Verde/Laranja (Sucesso):** O Anodo (perna longa) deve ser conectado ao pino **GPIO 18**.
