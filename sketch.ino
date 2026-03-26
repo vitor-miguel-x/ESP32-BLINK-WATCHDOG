@@ -2,8 +2,7 @@
 #include <HTTPClient.h>
 #include <WiFiClientSecure.h>
 
-const char* ssid = "A35 de Yuri";
-const char* password = "yurimartins";
+const char* ssid = "b08-iot";
 
 const char* serverName = "https://jsonplaceholder.typicode.com/todos/1";
 
@@ -14,7 +13,7 @@ const int PINO_LED_FALSE = 19;
 void setup() {
   Serial.begin(115200);
 
-  WiFi.begin(ssid, password);
+  WiFi.begin(ssid);
   Serial.print("Conectado ao Wi-Fi");
   while(WiFi.status() != WL_CONNECTED) {
     delay(500);
